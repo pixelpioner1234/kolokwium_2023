@@ -26,7 +26,7 @@ public class Land extends Polygon{
                 throw new RuntimeException("City " + city.getCityName() + " isn't added to the list.");
             }
         } catch (Exception e) {
-            System.out.println(e.getMessage());                                                                    //"City " + city.getCityName() + " isn't added to the list.");
+            System.out.println(e.getMessage());                                                //"City " + city.getCityName() + " isn't added to the list.");
         }
 
 
